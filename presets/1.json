@@ -1,0 +1,101 @@
+{
+    "preset_info": {
+        "id": 1,
+        "title": "Best Tech"
+    },
+    "macros": [
+        {
+            "name": "q spam",
+            "trigger": "q",
+            "actions": [
+                {
+                    "key": "q",
+                    "type": "key_tap",
+                    "wait_after": 0.01
+                },
+                {
+                    "key": "q",
+                    "type": "key_tap",
+                    "wait_after": 0.01
+                },
+                {
+                    "key": "q",
+                    "type": "key_tap",
+                    "wait_after": 0.01
+                },
+                {
+                    "key": "q",
+                    "type": "key_tap",
+                    "wait_after": 0.01
+                },
+                {
+                    "key": "q",
+                    "type": "key_tap",
+                    "wait_after": 0.01
+                }
+            ],
+            "loop": false
+        },
+        {
+            "name": "twisted",
+            "trigger": "e",
+            "actions": [
+                {
+                    "key": "q",
+                    "type": "key_tap",
+                    "wait_after": 0
+                },
+                {
+                    "degrees": 200,
+                    "direction": "left",
+                    "name": "Camera Move",
+                    "speed": 9999999,
+                    "type": "camera_action",
+                    "wait_after": 0.044
+                },
+                {
+                    "degrees": 200,
+                    "direction": "right",
+                    "name": "Camera Move",
+                    "speed": 99999,
+                    "type": "camera_action",
+                    "wait_after": 0.1
+                }
+            ],
+            "loop": false
+        },
+        {
+            "name": "inta lethal/K1NG tech",
+            "trigger": "x",
+            "actions": [
+                {
+                    "key": "space",
+                    "type": "key_tap",
+                    "wait_after": 0
+                },
+                {
+                    "key": "q",
+                    "type": "key_tap",
+                    "wait_after": 0
+                },
+                {
+                    "degrees": 200,
+                    "direction": "left",
+                    "name": "Camera Move",
+                    "speed": 99999999,
+                    "type": "camera_action",
+                    "wait_after": 0.1
+                },
+                {
+                    "degrees": 200,
+                    "direction": "right",
+                    "name": "Camera Move",
+                    "speed": 999999,
+                    "type": "camera_action",
+                    "wait_after": 0
+                }
+            ],
+            "loop": false
+        }
+    ]
+}
